@@ -29,10 +29,12 @@ if문은 가장 기본적인 조건문으로 if의 ()조건식이 참이면 {}�
 
  
 
-```
+```java
+
 if (조건식) {
 		//조건식이 true일때 수행될 문장
 }
+
 ```
 
 조건식에는 일반적으로 비교연산자와 논리연산자로 사용된다.
@@ -47,7 +49,7 @@ if (조건식) {
 
 if문에 else블럭이 추가된 구조로 조건식이 거짓일 때 else문을 실행한다.
 
-```
+```java
 if (조건식) {
 		//조건식이 true일때 수행될 문장
 } else {
@@ -61,7 +63,7 @@ if (조건식) {
 
 if-else문은 두가지 경우중 하나가 수행되는 구조인데 처리해야할 경우의 수가 셋이상인 경우에는 if-else if문을 사용한다.
 
-```
+```java
 if (조건식) {
 			//조건식1이 true일때 수행
 } else if (조건식2) {
@@ -80,7 +82,7 @@ if (조건식) {
 
 if문안에 if문을 중첩시키는 구조로 중첩의 횟수에는 제한이 없다.
 
-```
+```java
 if(조건식1){
 			//조건식1이 true일때 수행
 	if(조건식2){
@@ -103,7 +105,7 @@ switch문은 변수의 값에 따라 실행문을 선택하는데 오직 ==(동�
 
 그러므로 모든 switch문은 if문으로 바꿀수 있지만 if문에서 부등식이 사용된 경우에는 switch문으로 바꿀 수 없다.
 
-```
+```java
 swhich(변수) {
   case 값1 : 
     실행문;
@@ -140,7 +142,7 @@ swhich(변수) {
 
 for문은 반복횟수를 알고있을때 적합한 반복문이다.
 
-![image-20201210232421742](C:\Users\82103\AppData\Roaming\Typora\typora-user-images\image-20201210232421742.png)
+![image1](https://user-images.githubusercontent.com/57280699/101854518-0dacc080-3ba5-11eb-8d9a-d2468b418814.png)
 
 ######  																												▲for문의 수행순서
 
@@ -156,7 +158,7 @@ for문은 반복횟수를 알고있을때 적합한 반복문이다.
 
 for문안에 for문을 포함시키는 것으로 간단한 예로 구구단 출력을 예로 들어보자
 
-```
+```java
 for(int i=2; i < 10; i++){
 			for(int j = 1; j < 10; j++){
 				System.out.println(i+"x"+j + "=" + i* j);
@@ -170,7 +172,7 @@ for문 바깥쪽은 단을 출력, 안쪽 for문은 1~9까지 곱해질 숫자�
 
 JDK1.5부터 for문의 새로운 문법이 추가되었다.
 
-```
+```java
 for (대입받을 변수명 : 배열 또는 컬렉션) {
 			//반복할 문장
 }
@@ -180,7 +182,7 @@ for (대입받을 변수명 : 배열 또는 컬렉션) {
 
 배열 또는 컬렉션에 저장된 값이 반복할 때마다 읽혀서 변수에 저장된다.  
 
-```
+```java
 int[] arr = [1,2,3]
 
 for(int tmp : arr){
@@ -200,7 +202,7 @@ arr의 배열항목을 순서대로 tmp에 담아 실행하며 배열의 길이�
 
 while문은 조선식이 '참인 동안' {}블럭 내의 문장을 반복한다.
 
-![image-20201211002009837](C:\Users\82103\AppData\Roaming\Typora\typora-user-images\image-20201211002009837.png)
+![image](https://user-images.githubusercontent.com/57280699/101854572-2917cb80-3ba5-11eb-932e-c02a3ef9cdc9.png)
 
 for문과 while문은 서로 변환이 가능하며 초기화 식이나 증갑식이 필요하지 않은 경우라면 while문이 적합하다.
 
@@ -210,7 +212,7 @@ while문은 조건식은 생략불가
 
 while문과 구조는 같으나 조건식과 블럭의 순서를 바꿔 놓은 것이 do- while문이다.
 
-```
+```java
 do {
 	//조건식의 연산결과가 참일때 수행될 문장
 } while (조건식);
@@ -238,7 +240,7 @@ break문은 근접한 단 하나의 반복문만 벗어날 수 있기 때문에 
 
 
 
-```
+```java
 public class Test
 {
     public static void main(String[] args)
@@ -258,8 +260,6 @@ public class Test
 ```
 
 
-
-## 
 
 
 
