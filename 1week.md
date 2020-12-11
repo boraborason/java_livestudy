@@ -28,7 +28,7 @@ JVM이란 자바를 실행하기위한 가상 프로그램이다.
 
 자바로 작성된 프로그램은 운영체제가 아닌 JVM에서만 실행되는데 JVM만 각 OS에 설치되어 있다면 OS마다 따로 코드를 작성해야 하는 번거로움 없이 java가 **플랫폼에 독립적** 일 수 있게 해준다.
 
-![image](https://user-images.githubusercontent.com/57280699/101924825-78491500-3c14-11eb-9fac-2de47403d36e.png)
+<img src="https://user-images.githubusercontent.com/57280699/101924825-78491500-3c14-11eb-9fac-2de47403d36e.png" alt="image" style="zoom: 67%;" />
 
 ### 컴파일 하는 방법
 
@@ -119,7 +119,7 @@ jvm은 크게 4가지로 구성된다.
 
 ### JDK와 JRE의 차이
 
-<img src="https://user-images.githubusercontent.com/57280699/101934637-37a3c880-3c21-11eb-9b2b-e5eca58a2546.png" alt="image" style="zoom:67%;" />
+<img src="https://user-images.githubusercontent.com/57280699/101934637-37a3c880-3c21-11eb-9b2b-e5eca58a2546.png" alt="image" style="zoom: 50%;" />
 
 **JDK란?**
 
