@@ -39,7 +39,7 @@ if (조건식) {
 
 조건식에는 일반적으로 비교연산자와 논리연산자로 사용된다.
 
-<img src="C:\Users\82103\AppData\Roaming\Typora\typora-user-images\image-20201210183016490.png" alt="image-20201210183016490"  />
+![image](https://user-images.githubusercontent.com/57280699/101854992-0639e700-3ba6-11eb-8971-6c9fe73e8670.png)
 
 ​									출처 : 자바의 정석3판 표4-1 ▲자주쓰는 사용되는 조건식				
 
